@@ -1,0 +1,4 @@
+# convert userInterface.ui to userInterface.py file
+
+C:\Users\zekeriyya\AppData\Local\Programs\Python\Python35\Lib\site-packages\PyQt5\pyuic5.bat userInterface.ui -o userInterface.py
+
