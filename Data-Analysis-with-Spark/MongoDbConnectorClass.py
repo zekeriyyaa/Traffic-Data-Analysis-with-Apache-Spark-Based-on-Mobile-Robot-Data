@@ -4,14 +4,14 @@ class MongoDBConnection:
 
     ##for localhost connection
     __host = "127.0.0.1"
-    __database = "dbAkilliFabrikaTest"
-    __collection = "Collection6"
+    __database = "DATABASENAME"
+    __collection = "COLLECTIONNAME"
 
     ##for server connection
-    __host = "192.168.8.155"
+    __host = "192.168.10.155"
     __host = "127.0.0.1"
-    __database = "dbAkilliFabrikaAR"
-    __collection = "Konum"
+    __database = "DATABASENAME"
+    __collection = "COLLECTIONNAME"
 
     # Structure the connection
     #__connectionString = "mongodb://{0}:{1}@{2}:{3}/{4}.{5}?ssl=true&replicaSet=globaldb".format(userName, primaryKey, __host, port, __database, __collection)
@@ -19,7 +19,7 @@ class MongoDBConnection:
 
     __spark="null"
 
-    def __init__(self,host="127.0.0.1",database="dbAkilliFabrikaAR",collection="Konum"):
+    def __init__(self,host="127.0.0.1",database="DATABASENAME",collection="COLLECTIONNAME"):
         self.__host=host
         self.__database=database
         self.__collection=collection
