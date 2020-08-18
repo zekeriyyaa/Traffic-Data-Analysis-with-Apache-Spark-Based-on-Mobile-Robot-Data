@@ -3,6 +3,8 @@ A smart factory has many smart systems like autonomous guided vehicle. These all
 
 #### [Data-Analysis-with-Spark](https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/tree/master/Data-Analysis-with-Spark)
 
+AGV is generated its current position and speed data namely **packet** 150 times per minute.
+
 #### [Analysis-Result-Visualization-PyQT5](https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/tree/master/Analysis-Result-Visualization-PyQT5)
 
 
