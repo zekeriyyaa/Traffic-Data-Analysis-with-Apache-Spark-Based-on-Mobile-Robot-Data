@@ -1,10 +1,10 @@
 import pyodbc
 class MsSQLConnection:
-    __server="DESKTOP-6PMNDOG"
-    __database = 'dbAkilliFabrika'
+    __server="SERVERNAME"
+    __database = 'DATABASENAME'
     __conn="null"
 
-    def __init__(self,server="DESKTOP-6PMNDOG",database= 'dbAkilliFabrika'):
+    def __init__(self,server="SERVERNAME",database= 'DATABASENAME'):
         self.__server=server
         self.__database=database
         self.__conn=self.__GetConnect()
