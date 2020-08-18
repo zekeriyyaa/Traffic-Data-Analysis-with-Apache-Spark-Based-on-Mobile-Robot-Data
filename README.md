@@ -3,7 +3,14 @@ A smart factory has many smart systems like autonomous guided vehicle. These all
 
 #### [Data-Analysis-with-Spark](https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/tree/master/Data-Analysis-with-Spark)
 
-AGV is generated its current position and speed data namely **packet** 150 times per minute.
+AGV is generated its current position and speed data 150 times per minute. And these data store MongoDB database as a **packet**. Each packet has position, speed, datetime and ID datas. In addition, some information about the way which is AGV is travel on is received from MsSQL database. 
+**Using these datas, five analysis that is shown below is reached:**
+- Travel time
+- Waiting time 
+- Average speed
+- Occupancy
+- Density
+
 
 #### [Analysis-Result-Visualization-PyQT5](https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/tree/master/Analysis-Result-Visualization-PyQT5)
 
