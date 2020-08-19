@@ -7,14 +7,14 @@ System architecture is shown below:
 #### [Data-Analysis-with-Spark](https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/tree/master/Data-Analysis-with-Spark)
 
 AGV is generated its current position and speed data 150 times per minute. And these data store MongoDB database as a **packet**. Each packet has position, speed, datetime and ID datas as shown below. In addition, some information about the way which is AGV is travel on is received from MsSQL database. <br/>
-> <img src=https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/blob/master/images/mongodb.png width="200px" height="200px"/>
+> <img src=https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/blob/master/images/mongodb.png width="240px" height="200px"/>
 
 **Using these datas, five analysis that is shown below is made:**
-- Travel time :  A time between AGV start moving and stop. It is reached for each way and vehicle separately.
-- Waiting time : A time between AGV stoped and start moving again. It is reached for each way and vehicle separately.
-- Average speed : AGV's average speed. It is reached for each way separately.
-- Occupancy : It is reached for each way seperately. (way lenght) / (number of vehicle * vehicle length) 
-- Density : It is reached for aech way separately.  ( number of vehicle / way length )
+- **Travel time**   :  A time between AGV start moving and stop. It is reached for each way and vehicle separately.
+- **Waiting time**  : A time between AGV stoped and start moving again. It is reached for each way and vehicle separately.
+- **Average speed** : AGV's average speed. It is reached for each way separately.
+- **Occupancy**     : It is reached for each way seperately. (way lenght) / (number of vehicle * vehicle length) 
+- **Density**       : It is reached for aech way separately.  ( number of vehicle / way length )
 
 
 #### [Analysis-Result-Visualization-PyQT5](https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/tree/master/Analysis-Result-Visualization-PyQT5)
