@@ -22,7 +22,7 @@ pip install pyqtgraph
 ```
 
 #### Usage
-After the design is compleated, QtDesigner produce file has .ui extension. So, you need to convert this file to python file help with given code : 
+After the design is completed, QtDesigner produce file has .ui extension. So, you need to convert this file to python file and you can import design file by another python file. **pyuic.bat** is convert .ui ext file to .py file with help given code : 
 ```sh
 C:\Users\zekeriyya\AppData\Local\Programs\Python\Python35\Lib\site-packages\PyQt5\pyuic5.bat inputFileName.ui -o outputFileName.py
 ```
