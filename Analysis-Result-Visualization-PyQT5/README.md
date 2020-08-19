@@ -1,7 +1,7 @@
 #### [Analysis-Result-Visualization-PyQT5](https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/tree/master/Analysis-Result-Visualization-PyQT5)
 The desktop app is improved. So, result of the analysis has visualized to easly understanding. At the app, you can select way and time interval which to show all analysis result. 
 The desktop app look like as shown below:
-> <img src=https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/blob/master/images/appInterface.png width="750px" height="300px"/>
+> <img src=https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/blob/master/images/appInterface.png width="750px" height="270px"/>
 
 And also you can select which type of analysis that you want to visualized for a way that you already specified.
 The speed analysis of all way is shown as below ( **red**: low speed **green**: medium speed **yellow**: high speed ) :
@@ -19,4 +19,10 @@ pip install pyodbc
 - [pyqtgraph](https://pypi.org/project/pyqtgraph/) : is a pure-python graphics and GUI library built on PyQt4/PyQt5/PySide/PySide2 and numpy.
 ```sh
 pip install pyqtgraph
+```
+
+#### Usage
+After the design is compleated, QtDesigner produce file has .ui extension. So, you need to convert this file to python file help with given code : 
+```sh
+C:\Users\zekeriyya\AppData\Local\Programs\Python\Python35\Lib\site-packages\PyQt5\pyuic5.bat inputFileName.ui -o outputFileName.py
 ```
