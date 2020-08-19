@@ -16,4 +16,29 @@ MongoDB packet instance:
 - **Waiting time**: A time between AGV stoped and start moving again. It is reached for each way and vehicle separately.
 - **Average speed**: AGV's average speed. It is reached for each way separately.
 - **Occupancy**: It is reached for each way seperately. (way lenght) / (number of vehicle * vehicle length) 
-- **Density**: It is reached for aech way separately.  ( number of vehicle / way length )
+- **Density**: It is reached for aech way separately.  ( number of vehicle / way length ) Installation
+
+#### Installation Steps
+Given tools, setups and IDEs used for this project. Given steps is available for Windows installation.
+- [Apache Spark](https://spark.apache.org/downloads.html) : is a unified analytics engine for large-scale data processing ( **specify version:2.4.5**)
+- [Java](https://www.java.com/tr/download/windows-64bit.jsp)
+- [pip installer](https://bootstrap.pypa.io/get-pip.py) : download and setup it
+- [pyspark](https://pypi.org/project/pyspark/) : is a Python library. specify given version:
+```sh
+$ pip install pyspark==2.4.5
+```
+- [winutils](https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe) : download and store it in C:\winutils\bin\ 
+- Make winutils executable with given code :
+```sh
+winutils.exe chmod -R 777 C:\tmp\hive
+```
+- Change env. variable shown as url
+  >	https://www.youtube.com/watch?v=l6L5oyKzHrI&feature=youtu.be <br/> https://medium.com/@sinemhasircioglu/apache-spark-kurulumu-windows-4d411a5c9b43
+- Install findspark
+```sh
+pip install findspark
+```
+- [pyodbc](https://pypi.org/project/pyodbc/) : is an open source Python module that makes accessing ODBC databases simple.
+```sh
+pip install pyodbc
+```
