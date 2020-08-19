@@ -20,6 +20,8 @@ MongoDB packet instance:
 
 #### Installation Steps
 Given tools, setups and IDEs used for this project. Given steps is available for Windows installation.
+- [python3.7](https://www.python.org/downloads/)
+- [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows) : is a IDE for python (recommended)
 - [Apache Spark](https://spark.apache.org/downloads.html) : is a unified analytics engine for large-scale data processing ( **specify version:2.4.5**)
 - [Java](https://www.java.com/tr/download/windows-64bit.jsp)
 - [pip installer](https://bootstrap.pypa.io/get-pip.py) : download and setup it
@@ -42,3 +44,5 @@ pip install findspark
 ```sh
 pip install pyodbc
 ```
+- [Download ODBC Driver for SQL Server for Windows](https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver15) : is a single dynamic-link library (DLL) containing run-time support for applications using native-code APIs to connect to SQL Server <br/> Use this selection: **+ msiexec /quiet /passive /qn /i msodbcsql.msi IACCEPTMSODBCSQLLICENSETERMS=YES ADDLOCAL=ALL** <br/>
+  [Download ODBC Driver for SQL Server for Linux](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-ver15) <br/> 
