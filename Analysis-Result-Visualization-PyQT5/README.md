@@ -6,3 +6,17 @@ The desktop app look like as shown below:
 And also you can select which type of analysis that you want to visualized for a way that you already specified.
 The speed analysis of all way is shown as below ( **red**: low speed **green**: medium speed **yellow**: high speed ) :
 > <img src=https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/blob/master/images/speedGraph.png width="600px" height="300px"/>
+
+#### Installation Steps
+Given tools, setups and IDEs used for this project. Given steps is available for Windows installation.
+- [python3.5](https://www.python.org/downloads/) : specify version 3.5
+- [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows) : is a IDE for python (recommended)
+- [QtDesigner](https://build-system.fman.io/qt-designer-download) : a interface designer
+- [pyodbc](https://pypi.org/project/pyodbc/) : is an open source Python module that makes accessing ODBC databases simple.
+```sh
+pip install pyodbc
+```
+- [pyqtgraph](https://pypi.org/project/pyqtgraph/) : is a pure-python graphics and GUI library built on PyQt4/PyQt5/PySide/PySide2 and numpy.
+```sh
+pip install pyqtgraph
+```
