@@ -7,7 +7,7 @@ System architecture is shown below:
 #### [Data-Analysis-with-Spark](https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/tree/master/Data-Analysis-with-Spark)
 
 AGV is generated its current position and speed data 150 times per minute. And these data store MongoDB database as a **packet**. Each packet has position, speed, datetime and ID datas as shown below. In addition, some information about the way which is AGV is travel on is received from MsSQL database. <br/>
-> ![MongoDB Packet Instance](https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/blob/master/images/mongodb.png)
+> <img src=https://github.com/zekeriyyaa/Traffic-Data-Analysis-with-Spark/blob/master/images/mongodb.png width="200px" height="200px"/>
 
 **Using these datas, five analysis that is shown below is made:**
 - Travel time :  A time between AGV start moving and stop. It is reached for each way and vehicle separately.
