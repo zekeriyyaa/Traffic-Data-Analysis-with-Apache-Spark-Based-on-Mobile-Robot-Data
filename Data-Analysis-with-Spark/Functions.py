@@ -6,13 +6,11 @@ import datetime
 ### Match packages and ways if they are at the same coordinates.
 def GetSelected(packets):
     ### get MsSQL connection
-    MsSQLConnector1 = MsSQL.MsSQLConnection()
-    MsSQLConnector2 = MsSQL.MsSQLConnection()
-    MsSQLConnector3 = MsSQL.MsSQLConnection()
+    MsSQLConnector = MsSQL.MsSQLConnection()
 
-    conn1 = MsSQLConnector1.GetConnection()
-    conn2 = MsSQLConnector2.GetConnection()
-    conn3 = MsSQLConnector3.GetConnection()
+    conn1 = MsSQLConnector.GetConnection()
+    conn2 = MsSQLConnector.GetConnection()
+    conn3 = MsSQLConnector.GetConnection()
 
     cursor1 = conn1.cursor()
     cursor2 = conn2.cursor()
